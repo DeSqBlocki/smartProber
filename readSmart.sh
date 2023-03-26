@@ -17,4 +17,4 @@ do
         $sctl -a /dev/$disk | grep "Extended offline" | head -1 | column -t >> $file # gets latest 'Extended offline' test result
         echo "" >> $file # line break for clarity
 done
-s-nail -s Report -r $FROM $TO < $file
+s-nail -s "SMART Results" -r $FROM $TO < $file
