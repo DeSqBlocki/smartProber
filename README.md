@@ -1,9 +1,9 @@
 # smartProber
 
-### probe.sh
+### doSmart.sh
 starts the task of smartctl -t long for each device
 
-### results.sh
+### readSmart.sh
 sends results of smartctl to chosen mail and logs them locally
 
 ### recommended cron config:
