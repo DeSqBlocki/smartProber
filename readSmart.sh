@@ -1,5 +1,5 @@
 #!/bin/bash
-disks='' #example: 'sda sdb sdc sdd sde'
+disks='' #example: 'sda sdb'
 sctl=$(which smartctl)
 dir=/root/Logs # Logging Directory
 date=$(date +"%d-%m-%Y")
